@@ -4,6 +4,8 @@
   Variables allow certain assigned values to be re-used and referenced multiple times throughout a script. Variables can only hold one
   value at a time.
   
+  Variables contain and store any type of data type, from strings to integers to the null data type.
+  
   Variables can be created in two ways - variable "declaration" and variable "initialization". All variables in JavaScript are created using
   the "var" keyword, followed by the name of the variable, the assignment operator, and the value of the variable. JavaScript uses
   "Camel Casing" as a standard for naming variables.
