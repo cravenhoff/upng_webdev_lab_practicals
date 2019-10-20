@@ -52,9 +52,9 @@ function jackBlack(card) {
     }
 }
 
-// Call the jackBlack() function
-document.write(jackBlack(5));
-document.write(jackBlack(2));
-document.write(jackBlack(9));
-document.write(jackBlack(3));
+// Call the jackBlack() function to start playing and counting
+document.write(jackBlack(5) + ", ");
+document.write(jackBlack(2) + ", ");
+document.write(jackBlack(9) + ", ");
+document.write(jackBlack(3) + ", ");
 document.write(jackBlack(6));   // Final output will be: 4 Bet
