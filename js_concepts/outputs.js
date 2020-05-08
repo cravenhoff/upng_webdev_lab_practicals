@@ -3,8 +3,13 @@
   JavaScript can output or display data in the following ways:
   1. innerHTML - Displaying data in a HTML element
   2. document.write() - Displaying data onto the HTML display
-  3. window.alert() - Outputting data onto an alert box
+  3. window.alert() or alert() in the Console - Outputting data onto an alert box
   4. console.log() - Outputting data onto the browser console
+  
+  Basically, there are three different ways you can output data and responses with JavaScript:
+  - Alert Function
+  - Console.Log Function
+  - Accessing the DOM
 
 */
 
