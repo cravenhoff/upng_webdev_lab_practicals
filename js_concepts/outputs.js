@@ -29,3 +29,22 @@ console.log("Console output"); // Outputs the string <Console output> onto the b
 
 var hello = "Hello, world!";
 console.log(hello); // Outputs the string <Hello, world!> onto the console
+
+/*
+
+  JavaScript Loading Methods
+  
+  Loading Methods determine how the interpreter should load javascript in-line code or files (external JS).
+  
+  There are three (3) loading methods, and these include:
+  
+  1. Right Away Loading - Script is parsed through the "JavaScript Render Blocking" standard.
+  JavaScript is downloaded right after the HTML document, and executed thereafter.
+  
+  2. Asynchronous Loading - Used via the "async" attribute in the script tag.
+  JavaScript is downloaded simultaneously with the HTML document, and executed afterwards.
+  
+  3. Deferred Loading - Used via the "deferred" attribute in the script tag.
+  JavaScript is downloaded and executed after the HTML document is downloaded and parsed.
+
+*/
