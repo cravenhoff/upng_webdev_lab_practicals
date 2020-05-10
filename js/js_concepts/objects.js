@@ -12,10 +12,10 @@ any data type as its value.
 
 // Example Object
 var exampleObject = {
-  “name” : “Example Object”,
-  “type” : “Object”,
-  “year_created” : 2020,
-  “favoriteColors” : [“Purple”, “Green”, “Blue”]
+  "name" : "Example Object",
+  "type" : "Object",
+  "year_created" : 2020,
+  "favoriteColors" : ["Purple", "Green", "Blue"]
 };
 
 // The properties of the object are strings that precede the colon, and their values follow after the colon. Each property is
@@ -32,10 +32,10 @@ var exampleObject = {
 
 // How to access an object's properties using dot_notation
 var foodObject = {
-  “name” : “Chicken & Chips”,
-  “cost” : “K20.00”,
-  “quantity” : 1,
-  “restaurant” : “The Smithy’s”
+  "name" : "Chicken & Chips",
+  "cost" : "K20.00",
+  "quantity" : 1,
+  "restaurant" : "The Smithy’s"
 };
 
 // Accessing the "name" and "restaurant" properties of the foodObject{}.
@@ -54,10 +54,68 @@ var restaurant = foodObject.restaurant; // restaurant = “The Smithy’s”.
 
 // How to access an object's properties using bracket_notation
 var menu = {
-  “the entree” : “Chicken soup with bread”,
-  “main course” : “Grilled beef with mashed potatoes”,
-  “desert” : “Tropical coconut cake”
+  "the entree" : "Chicken soup with bread",
+  "main course" : "Grilled beef with mashed potatoes",
+  "desert" : "Tropical coconut cake"
 };
 // Accessing the entree and main course properties of the menu{}.
-var entree = menu[“entree”]; // Returns entree = "Chicken soup with bread"
-var mainCourse = menu[“main course”]; // Returns mainCourse = "Grilled beef with mashed potatoes"
+var entree = menu["entree"]; // Returns entree = "Chicken soup with bread"
+var mainCourse = menu["main course"]; // Returns mainCourse = "Grilled beef with mashed potatoes"
+
+/*
+
+  Accessng Object Properties with Variables
+  
+  Bracket notation is also used to access object properties using variables. In this instance, property names are stored in
+  variables and those variables are used in bracket notation when calling the properties.
+
+*/
+
+// How to access an object's properties with variables using bracket notation
+var fruits = {
+  "A" :  "Apple",
+  "B" : "Banana",
+  "C" : "Carrot"
+};
+
+// Access Propert "A" by storing it in a separate variable
+var fruitA = fruits["A"]; // Property A is stored in the variable fruitA.
+var getFruitA = fruits[fruitA]; // fruitA is used to access the value of property A.
+
+/*
+
+  Updating Object Properties
+  
+  Object properties are updated by simply calling the property and assigning it a nenew value. Properties can be updated
+  this way using both dot and bracket notation.
+
+*/
+
+var animals = {
+  "A" : "Apes",
+  "B" : "Baboon",
+  "C" : "Cheetach",
+  "D" : "Dohnut"
+};
+
+// Property "D" is certainly not an animal, so update it's value to include an animal
+animals["D"] = "Deer"; // Property "D" now has the updated value of "Deer"
+
+/*
+
+  Adding New Properties to a JavaScript Object
+  
+  New properties are added to objects by simply declaring the new property using dot or bracket notation, depending on the
+  composition of the property name, and assigning it a value.
+
+*/
+
+var car = {
+  "Make": "Tesla"
+  "Model" : "S",
+  "Engine" : "Electric"
+}
+
+// Add a speed and color property
+car.Speed = "155mph"; // Speed property added to the object
+car["Color"] = "Black"; // Color property added to the end of the object
