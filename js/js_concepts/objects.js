@@ -12,10 +12,10 @@ any data type as its value.
 
 // Example Object
 var exampleObject = {
-  “name” : “Example Object”,
-  “type” : “Object”,
-  “year_created” : 2020,
-  “favoriteColors” : [“Purple”, “Green”, “Blue”]
+  "name" : "Example Object",
+  "type" : "Object",
+  "year_created" : 2020,
+  "favoriteColors" : ["Purple", "Green", "Blue"]
 };
 
 // The properties of the object are strings that precede the colon, and their values follow after the colon. Each property is
@@ -32,10 +32,10 @@ var exampleObject = {
 
 // How to access an object's properties using dot_notation
 var foodObject = {
-  “name” : “Chicken & Chips”,
-  “cost” : “K20.00”,
-  “quantity” : 1,
-  “restaurant” : “The Smithy’s”
+  "name" : "Chicken & Chips",
+  "cost" : "K20.00",
+  "quantity" : 1,
+  "restaurant" : "The Smithy’s"
 };
 
 // Accessing the "name" and "restaurant" properties of the foodObject{}.
@@ -54,10 +54,10 @@ var restaurant = foodObject.restaurant; // restaurant = “The Smithy’s”.
 
 // How to access an object's properties using bracket_notation
 var menu = {
-  “the entree” : “Chicken soup with bread”,
-  “main course” : “Grilled beef with mashed potatoes”,
-  “desert” : “Tropical coconut cake”
+  "the entree" : "Chicken soup with bread",
+  "main course" : "Grilled beef with mashed potatoes",
+  "desert" : "Tropical coconut cake"
 };
 // Accessing the entree and main course properties of the menu{}.
-var entree = menu[“entree”]; // Returns entree = "Chicken soup with bread"
-var mainCourse = menu[“main course”]; // Returns mainCourse = "Grilled beef with mashed potatoes"
+var entree = menu["entree"]; // Returns entree = "Chicken soup with bread"
+var mainCourse = menu["main course"]; // Returns mainCourse = "Grilled beef with mashed potatoes"
