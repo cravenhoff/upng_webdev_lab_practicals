@@ -119,3 +119,20 @@ var car = {
 // Add a speed and color property
 car.Speed = "155mph"; // Speed property added to the object
 car["Color"] = "Black"; // Color property added to the end of the object
+
+/*
+
+  Deleting Object Properties
+  
+  Properties are deleted using the “delete” keyword followed by the object name and property.
+
+*/
+
+var fruits = {
+  "A" :  "Apple",
+  "B" : "Banana",
+  "C" : "Carrot"
+};
+
+// Delete property "C"
+delete fruits.C;
