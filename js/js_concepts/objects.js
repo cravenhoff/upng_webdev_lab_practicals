@@ -81,3 +81,22 @@ var fruits = {
 // Access Propert "A" by storing it in a separate variable
 var fruitA = fruits["A"]; // Property A is stored in the variable fruitA.
 var getFruitA = fruits[fruitA]; // fruitA is used to access the value of property A.
+
+/*
+
+  Updating Object Properties
+  
+  Object properties are updated by simply calling the property and assigning it a nenew value. Properties can be updated
+  this way using both dot and bracket notation.
+
+*/
+
+var animals = {
+  "A" : "Apes",
+  "B" : "Baboon",
+  "C" : "Cheetach",
+  "D" : "Dohnut"
+};
+
+// Property "D" is certainly not an animal, so update it's value to include an animal
+animals["D"] = "Deer"; // Property "D" now has the updated value of "Deer"
