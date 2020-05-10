@@ -61,3 +61,23 @@ var menu = {
 // Accessing the entree and main course properties of the menu{}.
 var entree = menu["entree"]; // Returns entree = "Chicken soup with bread"
 var mainCourse = menu["main course"]; // Returns mainCourse = "Grilled beef with mashed potatoes"
+
+/*
+
+  Accessng Object Properties with Variables
+  
+  Bracket notation is also used to access object properties using variables. In this instance, property names are stored in
+  variables and those variables are used in bracket notation when calling the properties.
+
+*/
+
+// How to access an object's properties with variables using bracket notation
+var fruits = {
+  "A" :  "Apple",
+  "B" : "Banana",
+  "C" : "Carrot"
+};
+
+// Access Propert "A" by storing it in a separate variable
+var fruitA = fruits["A"]; // Property A is stored in the variable fruitA.
+var getFruitA = fruits[fruitA]; // fruitA is used to access the value of property A.
