@@ -100,3 +100,22 @@ var animals = {
 
 // Property "D" is certainly not an animal, so update it's value to include an animal
 animals["D"] = "Deer"; // Property "D" now has the updated value of "Deer"
+
+/*
+
+  Adding New Properties to a JavaScript Object
+  
+  New properties are added to objects by simply declaring the new property using dot or bracket notation, depending on the
+  composition of the property name, and assigning it a value.
+
+*/
+
+var car = {
+  "Make": "Tesla"
+  "Model" : "S",
+  "Engine" : "Electric"
+}
+
+// Add a speed and color property
+car.Speed = "155mph"; // Speed property added to the object
+car["Color"] = "Black"; // Color property added to the end of the object
