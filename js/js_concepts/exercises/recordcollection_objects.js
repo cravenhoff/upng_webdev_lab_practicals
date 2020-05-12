@@ -14,6 +14,7 @@
 
 // Sample record collection object
 var collection = {
+  // Record 01
   001: {
     "Album" : "Thriller",
     "Artist" : "Michael Jackson",
