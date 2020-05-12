@@ -136,3 +136,44 @@ var fruits = {
 
 // Delete property "C"
 delete fruits.C;
+
+/*
+
+  Using Objects for Lookups: JavaScript Dictionaries
+  
+  Objects can be used as dictionary where specific terms can be looked up to retrieve their respective values.
+  Provided below are examples of this concept.
+
+*/
+
+// Create a simple lookup
+var lookup = {
+  "alpha" : "Team Albakurky",
+  "bravo" : "Team Bellony",
+  "charlie" : "Team Colarado Steals",
+  "delta" : "Team Death Squad",
+  "echo" : "Team Eagle Squad"
+};
+
+// Look-up the team name for code-name "alpha"
+lookup["alpha"]; // Returns the value/team name "Team Albakurky"
+
+/* The above "look-up" implementation of objects can be integrated into a function to better acheive this. */
+// Create a simple function that returns definitions/values or provided terms
+function armyTeams(codename) {
+  var result = "";
+  
+  var lookup = {
+    "alpha" : "Team Albakurky",
+    "bravo" : "Team Bellony",
+    "charlie" : "Team Colarado Steals",
+    "delta" : "Team Death Squad",
+    "echo" : "Team Eagle Squad"
+  };
+  
+  result = lookup[codename];
+  return result;
+}
+
+// Call of armyTeam function to retrieve the team of a particular codename
+armyTeams("charlie"); // Function returns the team "Team Colarado Steals"
