@@ -177,3 +177,24 @@ function armyTeams(codename) {
 
 // Call of armyTeam function to retrieve the team of a particular codename
 armyTeams("charlie"); // Function returns the team "Team Colarado Steals"
+
+/*
+
+  Testing Objects for Properties
+  
+  Objects can be checked to determine if they contain properties. This is done using the in-built object function,
+  hasOwnProperty(). To achieve this, simply call the object, and append the hasOwnProperty() function right after
+  the object name using dot notation - the property being checked is added in the function parenthesis.
+  
+  If the property does not exist in the object, the function will return false.
+
+*/
+
+//  Check the following sample object if it contains properties "B" and "C"
+var cities = {
+  "A" : "Alexandria, Egypt",
+  "B" : "Birmingham, UK",
+}
+
+cities.hasOwnProperty("B"); // Function returns "true" as it's available in the cities object
+cities.hasOwnProperty("C"); // Function returns "false" this time as cities object contains not such property
