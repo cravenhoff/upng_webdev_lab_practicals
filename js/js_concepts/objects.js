@@ -279,8 +279,8 @@ var backyardPlants = [
   {
     type: "trees",
     list: ["pine", "oak", "gum"]
-  };
-]
+  }
+];
 
 // Access the pine tree
-var pineTree = backyardPlants[1].list[0];
+var pineTree = backyardPlants[1]["list"][0];
