@@ -1,0 +1,1 @@
+/* This file contains the source code for a shopping list program. */
