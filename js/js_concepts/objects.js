@@ -260,3 +260,27 @@ var house = {
 
 // Access the types of rooms available outside the house
 house.outside.typesOfRooms; // Returns the array values: laundry room and shed
+
+/*
+
+  Accessing Nested Arrays
+  
+  Nested arrays, similar to nested objects, are arrays that can contain array values. Nested arrays can also be accessed
+  using both dot and bracket notations.
+
+*/
+
+// Example nested array
+var backyardPlants = [
+  {
+    type: "flowers",
+    list: ["rose", "tulip", "sunflower"]
+  },
+  {
+    type: "trees",
+    list: ["pine", "oak", "gum"]
+  };
+]
+
+// Access the pine tree
+var pineTree = backyardPlants[1].list[0];
