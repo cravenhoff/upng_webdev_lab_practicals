@@ -198,3 +198,40 @@ var cities = {
 
 cities.hasOwnProperty("B"); // Function returns "true" as it's available in the cities object
 cities.hasOwnProperty("C"); // Function returns "false" this time as cities object contains not such property
+
+/*
+
+  Manipulating Complex Objects
+  
+  In addition to objects storing basic data like strings, numbers and floats, objects are flexible enough to also
+  accommodate the storage of more advanced data types like arrays, and even objects themselves.
+  This is called "Complex Objects" - and it relates to objects having the ability to store other objects and arrays,
+  and also, arrays containing other arrays and objects.
+
+*/
+
+// Example 1 of a complex object
+var iphonePlaylist = {
+  "Maggie Rogers" : ["Overnight", "The Knife", "Light On"],
+  "Lauv" : ["Adrenaline", "Paris in Rain", "Friends"]
+}; // This object has array property values
+
+iphonePlaylist["Maggie Rogers"][0]; // Object returns the song "Overnight"
+
+// Example 2 of a complex object
+var playlistTrackDetails = [
+  {
+    "Artist" : "Maggie Rogers",
+    "Title" : "Overnight",
+    "Release_Year" : 2018,
+    "Format" : ["iTunes", "Youtube"]
+  },
+  {
+    "Artist" : "Maggie Rogers",
+    "Title" : "The Knife",
+    "Release_Year" : 2018,
+    "Format" : ["iTunes", "Youtube", "Spotify"]
+  }
+]; // This is a complex array that contains objects and further arrays within those objects
+
+playlistTrackDetails[0]["Artist"]; // Returns the artist "Maggie Rogers"
