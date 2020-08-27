@@ -87,4 +87,19 @@ var fourthLetterOfFullName = fullName[6]; // fourthLetterOfFullName is equal to 
 var name = "Maxwell";
 var lastCharacterOfName =  name[name.length - 1]; // lastCharacterOfName is equal to the character <l>
 
+/* --- ES6 Updates --- */
+// Improved method for concatenating variables with strings - Use the concept of "Template Strings" or "Template Literals".
+// Use back-ticks to enclose the string instead of quotes (single or double) and 
+// Surround the variable to include with a dollar sign ($) and curly braces.
+let name = "Jacob";
+let age = 30;
 
+// Concatenation
+console.log("My name is " + name + " and I am " + age + "years old.");
+
+// Template String
+console.log(`My name is ${name} and I am ${age} years old.`);
+
+// The above template string can also be assigned to a variable and outputted to the console.
+let greetings = `My name is ${name} and I am ${age} years old.`
+console.log(greetings);
