@@ -16,3 +16,17 @@ var myVariable; // No value is assigned to "myVariable" - By default, it will co
 
 // Initializing a variable
 var anotherVariable = "Hello, world"; // Variables that are initialized have "initial" values assigned to them, as this variable.
+
+/* 
+
+UPDATE: August 2020
+
+Since the release of ES6, variables are handled through the following keywords/constructs:
+1. Let
+2. Const
+3. Var
+
+*Note: Var is less used and is not recommended at this stage due to global-scoping that causes interference with existing variables.
+The preferred data storage constructs are "let" for dynamically changing data and "const" for static data.
+
+*/
